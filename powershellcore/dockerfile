@@ -26,4 +26,9 @@ RUN curl -SL $POWERSHELL_DOWNLOAD_URL --output powershell.deb \
     && rm powershell.deb \
     && apt-get clean
 
+### Install additional utilities
+RUN apt-get update && apt-get install -y \
+    ssh \
+    tmux
+
 ENTRYPOINT ["powershell"]
