@@ -31,8 +31,5 @@ RUN apt-get update && apt-get install -y \
     ssh \
     tmux
 
-### Run tmux to fix powershell console issue
-ADD ./scripts/start.sh /start.sh
-
-CMD ["/bin/bash", "/start.sh"]
+ENTRYPOINT ["tmux", "-c", "powershell"]
 
