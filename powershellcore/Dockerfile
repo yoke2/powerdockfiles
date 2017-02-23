@@ -31,4 +31,5 @@ RUN apt-get update && apt-get install -y \
     ssh \
     tmux
 
-ENTRYPOINT ["powershell"]
+ENTRYPOINT ["tmux"]
+CMD ["powershell"]
