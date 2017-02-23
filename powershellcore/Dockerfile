@@ -32,4 +32,4 @@ RUN apt-get update && apt-get install -y \
     tmux
 
 ENTRYPOINT ["tmux"]
-CMD ["powershell"]
+
