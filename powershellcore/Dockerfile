@@ -18,7 +18,7 @@ RUN apt-get update \
 WORKDIR /powershell
 
 ### Set some environment variables
-ENV POWERSHELL_DOWNLOAD_URL https://github.com/PowerShell/PowerShell/releases/download/v6.0.0-alpha.15/powershell_6.0.0-alpha.15-1ubuntu1.16.04.1_amd64.deb
+ENV POWERSHELL_DOWNLOAD_URL https://github.com/PowerShell/PowerShell/releases/download/v6.0.0-alpha.17/powershell_6.0.0-alpha.17-1ubuntu1.16.04.1_amd64.deb
 
 RUN curl -SL $POWERSHELL_DOWNLOAD_URL --output powershell.deb \
     && apt-get install libunwind8 libicu55 \
