@@ -31,7 +31,7 @@ RUN curl -SL $POWERSHELL_DOWNLOAD_URL --output powershell.deb \
 ### Set the working directory to /powershell-source
 WORKDIR /powershell-source
 
-RUN apt-get install git \
+RUN apt-get install git -y \
     && git clone --recursive https://github.com/PowerShell/PowerShell.git \
     && apt-get clean
 
