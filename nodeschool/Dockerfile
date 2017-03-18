@@ -15,11 +15,13 @@ RUN apt-get update -qq && apt-get install -qqy software-properties-common curl &
   && npm install fs-extra \
   && sed -i -e s/graceful-fs/fs-extra/ -e s/fs.rename/fs.move/ ./lib/utils/rename.js
 
-RUN npm install -g learnyounode
+# Install nodeschool libraries
+RUN npm install -g learnyounode && \
+npm install -g javascripting
 
 ### Install additional utilities
 RUN apt-get update && apt-get install -y \
     ssh \
     tmux
-    
+
 ENTRYPOINT ["tmux"]
