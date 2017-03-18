@@ -36,9 +36,10 @@ RUN apt-get install git -y \
     && apt-get clean
 
 WORKDIR /powershell-source/PowerShell
-RUN ["powershell", "Import-Module", "./build.psm1"]
-RUN ["powershell", "Start-PSBootstrap"]
-RUN ["powershell", "Start-PSBuild"]
+RUN powershell \
+    && Import-Module ./build.psm1 \
+    && Start-PSBootstrap \
+    && Start-PSBuild
 
 ### Install additional utilities
 RUN apt-get update && apt-get install -y \
