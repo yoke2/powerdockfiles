@@ -17,4 +17,9 @@ RUN apt-get update -qq && apt-get install -qqy software-properties-common curl &
 
 RUN npm install -g learnyounode
 
+### Install additional utilities
+RUN apt-get update && apt-get install -y \
+    ssh \
+    tmux
+    
 ENTRYPOINT ["tmux"]
