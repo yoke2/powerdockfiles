@@ -23,10 +23,10 @@ npm install -g elementary-electron && \
 npm install -g how-to-npm && \
 npm install -g stream-adventure && \
 npm install -g how-to-markdown && \
-npm install -g functional-javascript-workshop && \
-npm install -g levelmeup && \
-npm install -g expressworks
+npm install -g functional-javascript-workshop
 
+# npm install -g levelmeup && \
+# npm install -g expressworks && \
 # npm install -g makemehapi && \
 # npm install -g promise-it-wont-hurt && \
 # npm install -g async-you && \
