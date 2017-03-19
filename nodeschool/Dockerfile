@@ -20,10 +20,10 @@ RUN npm install -g learnyounode && \
 npm install -g javascripting && \
 npm install -g scope-chains-closures && \
 npm install -g elementary-electron && \
-npm install -g how-to-npm
+npm install -g how-to-npm && \
+npm install -g stream-adventure && \
+npm install -g how-to-markdown
 
-# npm install -g stream-adventure && \
-# npm install -g how-to-markdown && \
 # npm install -g functional-javascript-workshop && \
 # npm install -g levelmeup && \
 # npm install -g expressworks && \
