@@ -28,10 +28,9 @@ npm install -g expressworks && \
 npm install -g makemehapi && \
 npm install -g promise-it-wont-hurt && \
 npm install -g async-you && \
-npm install -g planetproto 
-#&& \
+npm install -g planetproto && \
+npm install -g webgl-workshop
 
-# npm install -g webgl-workshop && \
 # npm install -g esnext-generation && \
 # npm install -g test-anything && \
 # npm install -g tower-of-babel && \
