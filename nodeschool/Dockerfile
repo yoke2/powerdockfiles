@@ -28,9 +28,8 @@ npm install -g expressworks && \
 npm install -g makemehapi && \
 npm install -g promise-it-wont-hurt && \
 npm install -g async-you && \
-npm install -g nodebot-workshop
+npm install -g goingnative
 
-# npm install -g goingnative && \
 # npm install -g planetproto && \
 # npm install -g webgl-workshop && \
 # npm install -g esnext-generation && \
@@ -62,7 +61,9 @@ npm install -g nodebot-workshop
 # npm install -g seneca-in-practice && \
 # npm install -g less-is-more && \
 # npm install -g js-best-practices
+
 # npm install -g levelmeup
+# npm install -g nodebot-workshop
 
 ### Install additional utilities
 RUN apt-get update && apt-get install -y \
