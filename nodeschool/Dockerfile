@@ -27,11 +27,10 @@ npm install -g functional-javascript-workshop && \
 npm install -g expressworks && \
 npm install -g makemehapi && \
 npm install -g promise-it-wont-hurt && \
-npm install -g async-you 
+npm install -g async-you && \
+npm install -g planetproto 
 #&& \
-#npm install -g goingnative
 
-# npm install -g planetproto && \
 # npm install -g webgl-workshop && \
 # npm install -g esnext-generation && \
 # npm install -g test-anything && \
@@ -65,6 +64,7 @@ npm install -g async-you
 
 # npm install -g levelmeup
 # npm install -g nodebot-workshop
+# npm install -g goingnative
 
 ### Install additional utilities
 RUN apt-get update && apt-get install -y \
