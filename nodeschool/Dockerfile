@@ -29,7 +29,8 @@ npm install -g makemehapi && \
 npm install -g promise-it-wont-hurt && \
 npm install -g async-you && \
 npm install -g planetproto && \
-npm install -g webgl-workshop
+npm install -g learnyoureact && \
+npm install -g thinking-in-react
 
 # npm install -g esnext-generation && \
 # npm install -g test-anything && \
@@ -51,11 +52,9 @@ npm install -g webgl-workshop
 # npm install -g lololodash && \
 # npm install -g learnyoucouchdb && \
 # npm install -g learn-generators && \
-# npm install -g learnyoureact && \
 # npm install -g perfschool && \
 # npm install -g web-audio-school && \
 # npm install -g torrential && \
-# npm install -g thinking-in-react && \
 # npm install -g node-debug-school && \
 # npm install -g seneca-in-practice && \
 # npm install -g less-is-more && \
@@ -64,6 +63,7 @@ npm install -g webgl-workshop
 # npm install -g levelmeup
 # npm install -g nodebot-workshop
 # npm install -g goingnative
+# npm install -g webgl-workshop
 
 ### Install additional utilities
 RUN apt-get update && apt-get install -y \
