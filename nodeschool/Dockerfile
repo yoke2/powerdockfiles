@@ -30,10 +30,10 @@ npm install -g promise-it-wont-hurt && \
 npm install -g async-you && \
 npm install -g planetproto && \
 npm install -g learnyoureact && \
-npm install -g web-audio-school
+npm install -g web-audio-school && \
+npm install -g test-anything
 
 # npm install -g esnext-generation && \
-# npm install -g test-anything && \
 # npm install -g tower-of-babel && \
 # npm install -g learnyoumongo && \
 # npm install -g regex-adventure && \
