@@ -30,7 +30,7 @@ npm install -g promise-it-wont-hurt && \
 npm install -g async-you && \
 npm install -g planetproto && \
 npm install -g learnyoureact && \
-npm install -g thinking-in-react
+npm install -g web-audio-school
 
 # npm install -g esnext-generation && \
 # npm install -g test-anything && \
@@ -53,7 +53,6 @@ npm install -g thinking-in-react
 # npm install -g learnyoucouchdb && \
 # npm install -g learn-generators && \
 # npm install -g perfschool && \
-# npm install -g web-audio-school && \
 # npm install -g torrential && \
 # npm install -g node-debug-school && \
 # npm install -g seneca-in-practice && \
@@ -64,6 +63,7 @@ npm install -g thinking-in-react
 # npm install -g nodebot-workshop
 # npm install -g goingnative
 # npm install -g webgl-workshop
+# npm install -g thinking-in-react
 
 ### Install additional utilities
 RUN apt-get update && apt-get install -y \
