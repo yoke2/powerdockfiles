@@ -33,7 +33,8 @@ npm install -g learnyoureact && \
 npm install -g web-audio-school && \
 npm install -g test-anything && \
 npm install -g learnyoubash && \
-npm install -g learnyoumongo
+npm install -g learnyoumongo && \
+npm install -g browserify-adventure
 
 # npm install -g esnext-generation && \
 # npm install -g tower-of-babel && \
