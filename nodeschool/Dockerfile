@@ -31,14 +31,14 @@ npm install -g async-you && \
 npm install -g planetproto && \
 npm install -g learnyoureact && \
 npm install -g web-audio-school && \
-npm install -g test-anything
+npm install -g test-anything && \
+npm install -g learnyoubash 
 
 # npm install -g esnext-generation && \
 # npm install -g tower-of-babel && \
 # npm install -g learnyoumongo && \
 # npm install -g regex-adventure && \
 # npm install -g learn-sass && \
-# npm install -g learnyoubash && \
 # npm install -g currying-workshopper && \
 # npm install -g bacon-love && \
 # npm install -g innersourceadventure && \
