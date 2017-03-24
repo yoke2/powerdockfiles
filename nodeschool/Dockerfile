@@ -35,7 +35,8 @@ npm install -g test-anything && \
 npm install -g learnyoubash && \
 npm install -g learnyoumongo && \
 npm install -g browserify-adventure && \
-npm install -g introtowebgl
+npm install -g introtowebgl && \
+npm install -g lololodash
 
 # npm install -g esnext-generation && \
 # npm install -g tower-of-babel && \
@@ -48,11 +49,8 @@ npm install -g introtowebgl
 # npm install -g shader-school && \
 # npm install -g bytewiser && \
 # npm install -g bug-clinic && \
-# npm install -g browserify-adventure && \
-# npm install -g introtowebgl && \
 # npm install -g count-to-6 && \
 # npm install -g kick-off-koa && \
-# npm install -g lololodash && \
 # npm install -g learnyoucouchdb && \
 # npm install -g learn-generators && \
 # npm install -g perfschool && \
