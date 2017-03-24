@@ -36,11 +36,11 @@ npm install -g learnyoubash && \
 npm install -g learnyoumongo && \
 npm install -g browserify-adventure && \
 npm install -g introtowebgl && \
-npm install -g lololodash
+npm install -g lololodash && \
+npm install -g regex-adventure
 
 # npm install -g esnext-generation && \
 # npm install -g tower-of-babel && \
-# npm install -g learnyoumongo && \
 # npm install -g regex-adventure && \
 # npm install -g learn-sass && \
 # npm install -g currying-workshopper && \
