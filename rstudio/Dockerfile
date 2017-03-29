@@ -42,9 +42,10 @@ RUN install2.r --error \
     
 RUN R -e "devtools::install_github('rstudio/tensorflow')"
 
-RUN R -e "install.packages('tidyverse')" && \
-    R -e "install.packages('plotly')" && \
-    R -e "install.packages('rmarkdown')" && \
-    R -e "install.packages('leaflet')" \
+RUN R -e "install.packages('plotly')"
+# RUN R -e "install.packages('tidyverse')" && \
+#     R -e "install.packages('plotly')" && \
+#     R -e "install.packages('rmarkdown')" && \
+#     R -e "install.packages('leaflet')" \
 
 CMD ["/init"]
