@@ -45,6 +45,11 @@ RUN R -e "devtools::install_github('rstudio/tensorflow')"
 RUN R -e "install.packages('tidyverse')" && \
     R -e "install.packages('plotly')" && \
     R -e "install.packages('rmarkdown')" && \
+    R -e "install.packages('AzureML')" && \
+    R -e "install.packages('swirl')" && \
+    R -e "install.packages('rattle')" && \
+    R -e "install.packages('sqldf')" && \
+    R -e "install.packages('fivethirtyeight')" && \
     R -e "install.packages('leaflet')" 
 
 CMD ["/init"]
