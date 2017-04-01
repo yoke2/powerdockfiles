@@ -37,7 +37,8 @@ npm install -g learnyoumongo && \
 npm install -g browserify-adventure && \
 npm install -g introtowebgl && \
 npm install -g lololodash && \
-npm install -g regex-adventure
+npm install -g regex-adventure && \
+npm install -g node-debug-school
 
 # npm install -g esnext-generation && \
 # npm install -g tower-of-babel && \
