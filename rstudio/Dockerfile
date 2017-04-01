@@ -49,6 +49,11 @@ RUN R -e "install.packages('tidyverse')" && \
     R -e "install.packages('swirl')" && \
     R -e "install.packages('rattle')" && \
     R -e "install.packages('sqldf')" && \
+    R -e "install.packages('forecast')" && \
+    R -e "install.packages('tm')" && \
+    R -e "install.packages('RODBC')" && \
+    R -e "install.packages('RSQLite')" && \
+    R -e "install.packages('randomForest')" && \
     R -e "install.packages('fivethirtyeight')" && \
     R -e "install.packages('leaflet')" 
 
