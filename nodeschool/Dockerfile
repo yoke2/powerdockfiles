@@ -38,7 +38,7 @@ npm install -g browserify-adventure && \
 npm install -g introtowebgl && \
 npm install -g lololodash && \
 npm install -g regex-adventure && \
-npm install -g node-debug-school
+npm install -g js-best-practices
 
 # npm install -g esnext-generation && \
 # npm install -g tower-of-babel && \
@@ -59,13 +59,14 @@ npm install -g node-debug-school
 # npm install -g node-debug-school && \
 # npm install -g seneca-in-practice && \
 # npm install -g less-is-more && \
-# npm install -g js-best-practices
+
 
 # npm install -g levelmeup
 # npm install -g nodebot-workshop
 # npm install -g goingnative
 # npm install -g webgl-workshop
 # npm install -g thinking-in-react
+# npm install -g node-debug-school
 
 ### Install additional utilities
 RUN apt-get update && apt-get install -y \
