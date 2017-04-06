@@ -1,8 +1,5 @@
 FROM jupyter/minimal-notebook:9e056d61b7a5
 
-# Upgrade Jupyter Notebook
-RUN pip install --upgrade notebook 
-
 COPY requirements.txt /tmp/
 RUN pip install --requirement /tmp/requirements.txt
 COPY . /tmp/
@@ -23,5 +20,8 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD5
             libcurl4-openssl-dev && \
     R --no-save < /tmp/install_irkernel.R && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
+# Upgrade Jupyter Notebook
+RUN pip install --upgrade notebook 
 
 WORKDIR $DOCKER_HOME
