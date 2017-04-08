@@ -52,7 +52,8 @@ RUN R -e "install.packages('tidyverse')" && \
     R -e "install.packages('forecast')" && \
     R -e "install.packages('tm')" && \
     R -e "install.packages('xkcd')" && \
-    R -e "install.packages('shiny')" && \
+    R -e "install.packages('shiny')" && \ 
+    R -e "install.packages('biclust')" && \
     R -e "install.packages('flexdashboard')" && \
     R -e "install.packages('RODBC')" && \
     R -e "install.packages('RSQLite')" && \
