@@ -44,7 +44,6 @@ RUN R -e "devtools::install_github('rstudio/tensorflow')"
 
 RUN R -e "install.packages('tidyverse')" && \
     R -e "install.packages('plotly')" && \
-    R -e "install.packages('rmarkdown')" && \
     R -e "install.packages('AzureML')" && \
     R -e "install.packages('swirl')" && \
     R -e "install.packages('rattle')" && \
@@ -53,8 +52,20 @@ RUN R -e "install.packages('tidyverse')" && \
     R -e "install.packages('tm')" && \
     R -e "install.packages('xkcd')" && \
     R -e "install.packages('shiny')" && \ 
-    R -e "install.packages('biclust')" && \
     R -e "install.packages('flexdashboard')" && \
+    R -e "install.packages('evaluate')" && \ 
+    R -e "install.packages('formatR')" && \ 
+    R -e "install.packages('highr')" && \ 
+    R -e "install.packages('markdown')" && \ 
+    R -e "install.packages('yaml')" && \ 
+    R -e "install.packages('caTools')" && \
+    R -e "install.packages('bitops')" && \
+    R -e "install.packages('knitr')" && \ 
+    R -e "install.packages('base64enc')" && \ 
+    R -e "install.packages('rprojroot')" && \ 
+    R -e "install.packages('shiny')" && \ 
+    R -e "install.packages('biclust')" && \
+    R -e "install.packages('rmarkdown')" && \
     R -e "install.packages('RODBC')" && \
     R -e "install.packages('RSQLite')" && \
     R -e "install.packages('randomForest')" && \
