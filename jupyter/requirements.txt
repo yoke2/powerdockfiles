@@ -10,3 +10,6 @@ gensim==1.0.1
 seaborn==0.7.1
 jupyter_dashboards
 folium
+ipywidgets
+ipyleaflet
+pythreejs
