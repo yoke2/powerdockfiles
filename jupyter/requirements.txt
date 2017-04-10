@@ -17,5 +17,4 @@ pythreejs
 bqplot
 scrapy
 bokeh
-json
-declarativewidgets
+jupyter_declarativewidgets
