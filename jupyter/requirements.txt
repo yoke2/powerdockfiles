@@ -16,8 +16,6 @@ ipyleaflet
 pythreejs
 bqplot
 scrapy
-requests
-beautifulsoup4
 bokeh
 declarativewidgets
 json

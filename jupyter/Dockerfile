@@ -1,7 +1,5 @@
 FROM jupyter/minimal-notebook
 
-RUN apt-get install build-essential libssl-dev libffi-dev python-dev
-
 COPY requirements.txt /tmp/
 RUN pip install --requirement /tmp/requirements.txt \
     && jupyter dashboards quick-setup --sys-prefix \
