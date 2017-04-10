@@ -11,5 +11,7 @@ seaborn==0.7.1
 jupyter_dashboards
 folium
 ipywidgets
+widgetsnbextension
 ipyleaflet
 pythreejs
+bqplot
