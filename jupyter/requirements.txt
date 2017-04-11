@@ -15,6 +15,3 @@ widgetsnbextension
 ipyleaflet
 pythreejs
 bqplot
-bokeh
-scrapy
-jupyter_declarativewidgets
