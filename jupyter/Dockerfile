@@ -6,5 +6,6 @@ RUN pip install --requirement /tmp/requirements.txt \
     && jupyter nbextension enable --py --sys-prefix widgetsnbextension \
     && jupyter nbextension enable --py --sys-prefix ipyleaflet \
     && jupyter nbextension enable --py --sys-prefix pythreejs \
-    && jupyter nbextension enable --py --sys-prefix bqplot
+    && jupyter nbextension enable --py --sys-prefix bqplot \
+    && jupyter declarativewidgets quick-setup --sys-prefix
 COPY . /tmp/
