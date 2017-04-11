@@ -16,4 +16,4 @@ ipyleaflet
 pythreejs
 bqplot
 bokeh
-jupyter_declarativewidgets
+scrapy
