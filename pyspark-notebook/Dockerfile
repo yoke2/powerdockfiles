@@ -42,7 +42,7 @@ ENV SPARK_OPTS --driver-java-options=-Xms1024M --driver-java-options=-Xmx4096M -
 
 # Install Python 3 packages
 RUN conda install jupyter_dashboards -c conda-forge
-RUN conda  install jupyter_declarativewidgets
+RUN pip install jupyter_declarativewidgets
 RUN jupyter declarativewidgets quick-setup --sys-prefix
 
 USER $NB_USER
