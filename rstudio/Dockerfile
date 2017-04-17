@@ -71,6 +71,8 @@ RUN R -e "install.packages('tidyverse')" && \
     R -e "install.packages('mapdata')" && \
     R -e "install.packages('tmap')" && \
     R -e "install.packages('rgdal')" && \
+    R -e "install.packages('rgeos')" && \
+    R -e "install.packages('maptools')" && \
     R -e "install.packages('bookdown')" && \
     R -e "install.packages('RODBC')" && \
     R -e "install.packages('RSQLite')" && \
