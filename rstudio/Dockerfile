@@ -67,6 +67,10 @@ RUN R -e "install.packages('tidyverse')" && \
     R -e "install.packages('biclust')" && \
     R -e "install.packages('rmarkdown')" && \
     R -e "install.packages('googleVis')" && \
+    R -e "install.packages('ggmap')" && \
+    R -e "install.packages('mapdata')" && \
+    R -e "install.packages('rgdal')" && \
+    R -e "install.packages('googleVis')" && \
     R -e "install.packages('RODBC')" && \
     R -e "install.packages('RSQLite')" && \
     R -e "install.packages('randomForest')" && \
