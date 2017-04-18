@@ -74,4 +74,8 @@ RUN R -e "install.packages('tidyverse')" && \
     R -e "install.packages('fivethirtyeight')" && \
     R -e "install.packages('leaflet')" 
 
+RUN R -e "devtools::install_github('ramnathv/rCharts@dev')"
+RUN R -e "devtools::install_github('ramnathv/rMaps')"
+RUN R -e "devtools::install_github('rstudio/shinygadgets')"
+
 CMD ["/init"]
