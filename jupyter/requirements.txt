@@ -21,3 +21,4 @@ gspread
 statsmodels
 azure
 azureml
+cbar
