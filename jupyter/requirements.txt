@@ -17,3 +17,4 @@ pythreejs
 bqplot
 jupyter_declarativewidgets
 bokeh
+gspread
