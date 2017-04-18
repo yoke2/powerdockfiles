@@ -39,8 +39,13 @@ RUN pip --no-cache-dir install \
 
 RUN install2.r --error \
     devtools
-    
+
 RUN R -e "devtools::install_github('rstudio/tensorflow')"
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        r-base \
+        r-base-dev \
+        r-cran-rjson
 
 RUN R -e "install.packages('tidyverse')" && \
     R -e "install.packages('plotly')" && \
