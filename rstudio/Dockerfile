@@ -78,5 +78,6 @@ RUN R -e "devtools::install_github('ramnathv/rCharts@dev')"
 RUN R -e "devtools::install_github('ramnathv/rMaps')"
 RUN R -e "devtools::install_github('rstudio/shinygadgets')"
 RUN R -e "install.packages('gapminder')"
+RUN R -e "devtools::install_github('joyofdata/RTwitterAPI')"
 
 CMD ["/init"]
