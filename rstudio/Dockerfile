@@ -42,11 +42,6 @@ RUN install2.r --error \
 
 RUN R -e "devtools::install_github('rstudio/tensorflow')"
 
-RUN apt-get update && apt-get install -y --no-install-recommends \
-        r-base \
-        r-base-dev \
-        r-cran-rjson
-
 RUN R -e "install.packages('tidyverse')" && \
     R -e "install.packages('plotly')" && \
     R -e "install.packages('AzureML')" && \
@@ -72,12 +67,6 @@ RUN R -e "install.packages('tidyverse')" && \
     R -e "install.packages('biclust')" && \
     R -e "install.packages('rmarkdown')" && \
     R -e "install.packages('googleVis')" && \
-    R -e "install.packages('ggmap')" && \
-    R -e "install.packages('mapdata')" && \
-    R -e "install.packages('tmap')" && \
-    R -e "install.packages('rgdal')" && \
-    R -e "install.packages('rgeos')" && \
-    R -e "install.packages('maptools')" && \
     R -e "install.packages('bookdown')" && \
     R -e "install.packages('RODBC')" && \
     R -e "install.packages('RSQLite')" && \
