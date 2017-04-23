@@ -81,5 +81,6 @@ RUN R -e "install.packages('gapminder')"
 RUN R -e "devtools::install_github('joyofdata/RTwitterAPI')"
 RUN R -e "install.packages('genderizeR')"
 RUN R -e "devtools::install_github('dgrtwo/gganimate')"
+RUN R -e "install.packages('ggvis')"
 
 CMD ["/init"]
