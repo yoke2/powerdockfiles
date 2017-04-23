@@ -82,5 +82,6 @@ RUN R -e "devtools::install_github('joyofdata/RTwitterAPI')"
 RUN R -e "install.packages('genderizeR')"
 RUN R -e "devtools::install_github('dgrtwo/gganimate')"
 RUN R -e "install.packages('ggvis')"
+RUN R -e "install.packages('ggmap')"
 
 CMD ["/init"]
