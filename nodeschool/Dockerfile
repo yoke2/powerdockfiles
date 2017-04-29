@@ -71,9 +71,7 @@ npm install -g js-best-practices
 ### Install additional utilities
 RUN apt-get update && apt-get install -y \
     ssh \
-    tmux
-
-RUN apt-get update && apt-get install -y \
     mongodb \
+    tmux
 
 ENTRYPOINT ["tmux"]
