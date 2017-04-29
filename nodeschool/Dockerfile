@@ -73,4 +73,7 @@ RUN apt-get update && apt-get install -y \
     ssh \
     tmux
 
+RUN apt-get update && apt-get install -y \
+    mongodb \
+
 ENTRYPOINT ["tmux"]
