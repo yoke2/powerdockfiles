@@ -38,6 +38,7 @@ npm install -g browserify-adventure && \
 npm install -g introtowebgl && \
 npm install -g lololodash && \
 npm install -g regex-adventure && \
+npm install -g mongodb && \
 npm install -g js-best-practices
 
 # npm install -g esnext-generation && \
