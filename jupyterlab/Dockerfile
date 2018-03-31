@@ -1,9 +1,6 @@
 # minimal-notebook image as of 20180220
 FROM jupyter/minimal-notebook:92fe05d1e7e5
 
-# Replace shell with bash so we can source files
-RUN rm /bin/sh && ln -s /bin/bash /bin/sh
-
 # make sure apt is up to date
 RUN apt-get update --fix-missing
 RUN apt-get install -y curl
@@ -13,8 +10,8 @@ ENV NVM_DIR /usr/local/nvm
 ENV NODE_VERSION 8.11.1
 
 # Install nvm with node and npm
-RUN curl https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash \
-    && source $NVM_DIR/nvm.sh \
+RUN curl https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | /bin/bash \
+    && /bin/bash -c "source $NVM_DIR/nvm.sh" \
     && nvm install $NODE_VERSION \
     && nvm alias default $NODE_VERSION \
     && nvm use default
