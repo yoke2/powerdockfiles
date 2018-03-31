@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         libssl-dev \
         && \
     apt-get clean && \
-rm -rf /var/lib/apt/lists/*
+    rm -rf /var/lib/apt/lists/*
 
 ENV NVM_DIR /usr/local/nvm
 ENV NODE_VERSION 8.11.1
