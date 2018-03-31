@@ -18,12 +18,15 @@ ENV NVM_DIR $HOME/.nvm
 ENV NODE_VERSION 8.11.1
 
 # Install nvm with node and npm
-RUN curl https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | /bin/bash \
-    && /bin/bash -c "source $NVM_DIR/nvm.sh" \
-    && /bin/bash -c "source ~/.bashrc" \
-    && nvm install $NODE_VERSION \
-    && nvm alias default $NODE_VERSION \
-    && nvm use default
+RUN curl https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | /bin/bash #\
+#    && /bin/bash -c "source $NVM_DIR/nvm.sh" \
+#    && /bin/bash -c "source ~/.bashrc" \
+#    && nvm install $NODE_VERSION \
+#    && nvm alias default $NODE_VERSION \
+#    && nvm use default
+
+RUN /bin/bash -c "source $NVM_DIR/nvm.sh && nvm install $NODE_VERSION && nvm use --delete-prefix $NODE_VERSION"
+
 
 # Install python dependencies
 COPY requirements.txt /tmp/
