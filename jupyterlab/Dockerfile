@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 # Switch back to jovyan to avoid accidental container runs as root
 USER $NB_UID
 
-ENV NVM_DIR /usr/local/nvm
+ENV NVM_DIR $HOME/.nvm
 ENV NODE_VERSION 8.11.1
 
 # Install nvm with node and npm
